@@ -1,363 +1,192 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gajender Gahlaut | Resume</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      padding: 30px 15px;
-      background: #eef2f6;
-      color: #1d2939;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.5;
-    }
-
-    .resume {
-      max-width: 900px;
-      margin: auto;
-      padding: 45px 55px;
-      background: #ffffff;
-      box-shadow: 0 5px 25px rgba(0,0,0,0.08);
-    }
-
-    .header {
-      border-bottom: 3px solid #175c82;
-      padding-bottom: 20px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 32px;
-    }
-
-    .headline {
-      color: #175c82;
-      font-weight: bold;
-      margin: 5px 0 12px;
-    }
-
-    .contact {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px 18px;
-      font-size: 13px;
-      color: #526174;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    .section {
-      margin-top: 25px;
-    }
-
-    h2 {
-      color: #175c82;
-      font-size: 15px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      border-bottom: 1px solid #d9e2ea;
-      padding-bottom: 7px;
-      margin-bottom: 12px;
-    }
-
-    p {
-      font-size: 14px;
-      margin: 0;
-    }
-
-    .skills {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10px 22px;
-    }
-
-    .skill-item {
-      font-size: 13px;
-    }
-
-    .job {
-      margin-bottom: 20px;
-    }
-
-    .job-head {
-      display: flex;
-      justify-content: space-between;
-      gap: 12px;
-    }
-
-    .job-title {
-      font-weight: bold;
-      font-size: 15px;
-    }
-
-    .dates {
-      color: #526174;
-      font-size: 13px;
-    }
-
-    .company {
-      color: #175c82;
-      font-weight: bold;
-    }
-
-    .location {
-      color: #526174;
-      font-size: 13px;
-    }
-
-    ul {
-      padding-left: 20px;
-      margin: 8px 0;
-    }
-
-    li {
-      font-size: 13px;
-      margin-bottom: 5px;
-    }
-
-    .education-item,
-    .info-item {
-      font-size: 13px;
-      margin: 8px 0;
-    }
-
-    .info-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-    }
-
-    @media (max-width: 600px) {
-      .resume {
-        padding: 25px 20px;
-      }
-
-      .skills,
-      .info-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .job-head {
-        display: block;
-      }
-
-      .dates {
-        display: block;
-      }
-    }
-
-    @media print {
-      @page {
-        size: A4;
-        margin: 14mm;
-      }
-
-      body {
-        padding: 0;
-        background: white;
-      }
-
-      .resume {
-        box-shadow: none;
-        padding: 0;
-      }
-
-      .section,
-      .job {
-        break-inside: avoid;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gajender Gahlaut | Resume</title>
 </head>
 
 <body>
 
-<div class="resume">
+    <main>
 
-  <div class="header">
-    <h1>Gajender Gahlaut</h1>
-    <p class="headline">Senior Quality Assurance Leader</p>
+        <!-- Personal Information -->
+        <header>
+            <h1>Gajender Gahlaut</h1>
+            <p>Senior Quality Assurance Leader</p>
 
-    <div class="contact">
-      <span>Berlin, Germany</span>
+            <address>
+                Berlin, Germany<br>
+                             Email:
+                <a href="mailto:myemail@gmail.com">
+                    myemail.com
+                </a><br>
 
-      <a href="mailto:myemail@gmail.com">
-        myemail@gmail.com
-      </a>
+                Phone:
+                <a href="tel:+4915510552877">
+                    +49 155 10552877
+                </a><br>
+                </a><br>
 
-      <a href="tel:+4915510552877">
-        +49 155 10552877
-      </a>
+                LinkedIn:
+                <a href="https://linkedin.com/in/gajender-gahlaut-02087253">
+                    LinkedIn Profile
+                </a>
+            </address>
+        </header>
 
-      <a href="https://linkedin.com/in/gajender-gahlaut-02087253">
-        LinkedIn Profile
-      </a>
-    </div>
-  </div>
+        <!-- Professional Summary -->
+        <section>
+            <h2>Professional Summary</h2>
 
-  <div class="section">
-    <h2>Professional Summary</h2>
-    <p>
-      Senior Quality Assurance Leader with 10+ years of experience
-      delivering enterprise-grade QA solutions within Agile and
-      DevOps environments, including financial services and ERP platforms.
-    </p>
-  </div>
+            <p>
+                Senior Quality Assurance Leader with 10+ years of experience
+                delivering enterprise-grade QA solutions within Agile and
+                DevOps environments, including financial services and ERP platforms.
+            </p>
+        </section>
 
-  <div class="section">
-    <h2>Technical Skills</h2>
+        <!-- Technical Skills -->
+        <section>
+            <h2>Technical Skills</h2>
 
-    <div class="skills">
+            <ul>
+                <li>
+                    <strong>Languages:</strong>
+                    Java, Python, JavaScript, TypeScript, SQL, Bash
+                </li>
 
-      <div class="skill-item">
-        <strong>Languages:</strong>
-        Java, Python, JavaScript, TypeScript, SQL, Bash
-      </div>
+                <li>
+                    <strong>Automation Tools:</strong>
+                    Selenium, Cypress, Playwright, Appium, REST Assured,
+                    Cucumber (BDD)
+                </li>
 
-      <div class="skill-item">
-        <strong>Automation Tools:</strong>
-        Selenium, Cypress, Playwright, Appium, REST Assured,
-        Cucumber (BDD)
-      </div>
+                <li>
+                    <strong>API &amp; Performance:</strong>
+                    Postman, SoapUI, JMeter, LoadRunner
+                </li>
 
-      <div class="skill-item">
-        <strong>API &amp; Performance:</strong>
-        Postman, SoapUI, JMeter, LoadRunner
-      </div>
+                <li>
+                    <strong>DevOps &amp; CI/CD:</strong>
+                    Azure DevOps, Jenkins, GitHub Actions, Maven,
+                    SonarQube, Docker
+                </li>
 
-      <div class="skill-item">
-        <strong>DevOps &amp; CI/CD:</strong>
-        Azure DevOps, Jenkins, GitHub Actions, Maven,
-        SonarQube, Docker
-      </div>
+                <li>
+                    <strong>Platforms:</strong>
+                    Web, Mobile (Android/iOS), Cloud-based Microservices
+                </li>
 
-      <div class="skill-item">
-        <strong>Platforms:</strong>
-        Web, Mobile (Android/iOS), Cloud-based Microservices
-      </div>
+                <li>
+                    <strong>Practices:</strong>
+                    Agile Testing, Shift-Left, TDD/BDD, Test Metrics,
+                    Risk-Based Testing
+                </li>
+            </ul>
+        </section>
 
-      <div class="skill-item">
-        <strong>Practices:</strong>
-        Agile Testing, Shift-Left, TDD/BDD, Test Metrics,
-        Risk-Based Testing
-      </div>
+        <!-- Professional Experience -->
+        <section>
+            <h2>Professional Experience</h2>
 
-    </div>
-  </div>
+            <article>
+                <h3>QA Chapter Lead</h3>
 
-  <div class="section">
-    <h2>Professional Experience</h2>
+                <p>
+                    <strong>Deutsche Bank</strong><br>
+                    Berlin, Germany<br>
+                    February 2026 – August 2026
+                </p>
 
-    <div class="job">
+                <ul>
+                    <li>
+                        Built CI/CD automation pipelines using GitHub Actions
+                        and Jenkins, integrating automated UI, API, and
+                        regression test suites to accelerate software delivery
+                        and improve release quality.
+                    </li>
 
-      <div class="job-head">
-        <span class="job-title">QA Chapter Lead</span>
-        <span class="dates">Feb 2026 – Aug 2026</span>
-      </div>
+                    <li>
+                        Investigated, debugged, and resolved complex production
+                        defects by analyzing application logs, API responses,
+                        browser developer tools, and backend database
+                        validations using SQL.
+                    </li>
+                </ul>
+            </article>
 
-      <div>
-        <span class="company">Deutsche Bank</span>
-        <span class="location">| Berlin, Germany</span>
-      </div>
+            <article>
+                <h3>Quality Manager</h3>
 
-      <ul>
-        <li>
-          Built CI/CD automation pipelines using GitHub Actions and
-          Jenkins, integrating automated UI, API, and regression test
-          suites to accelerate software delivery and improve release quality.
-        </li>
+                <p>
+                    <strong>Peer Network</strong><br>
+                    Berlin, Germany<br>
+                    February 2025 – January 2026
+                </p>
 
-        <li>
-          Investigated, debugged, and resolved complex production defects
-          by analyzing application logs, API responses, browser developer
-          tools, and backend database validations using SQL.
-        </li>
-      </ul>
+                <ul>
+                    <li>
+                        Designed an automation-first QA strategy leveraging
+                        Playwright, Appium, and API automation to improve
+                        regression coverage and release stability.
+                    </li>
+                </ul>
+            </article>
 
-    </div>
+        </section>
 
-    <div class="job">
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
 
-      <div class="job-head">
-        <span class="job-title">Quality Manager</span>
-        <span class="dates">Feb 2025 – Jan 2026</span>
-      </div>
+            <article>
+                <h3>Master of Computer Applications (MCA)</h3>
+                <p>GGSIP University, Delhi</p>
+            </article>
 
-      <div>
-        <span class="company">Peer Network</span>
-        <span class="location">| Berlin, Germany</span>
-      </div>
+            <article>
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p>GGSIP University, Delhi</p>
+            </article>
+        </section>
 
-      <ul>
-        <li>
-          Designed an automation-first QA strategy leveraging Playwright,
-          Appium, and API automation to improve regression coverage
-          and release stability.
-        </li>
-      </ul>
+        <!-- Certifications -->
+        <section>
+            <h2>Certifications</h2>
 
-    </div>
-  </div>
+            <ul>
+                <li>Certified Scrum Master (CSM)</li>
+                <li>Advanced Certified Scrum Master (A-CSM)</li>
+                <li>ISTQB Certified Tester – Foundation Level</li>
+            </ul>
+        </section>
 
-  <div class="section">
-    <h2>Education</h2>
+        <!-- Additional Information -->
+        <section>
+            <h2>Additional Information</h2>
 
-    <div class="education-item">
-      <strong>Master of Computer Applications (MCA)</strong>
-      – GGSIP University, Delhi
-    </div>
+            <ul>
+                <li>
+                    <strong>Languages:</strong>
+                    English (Fluent), German (A2)
+                </li>
 
-    <div class="education-item">
-      <strong>Bachelor of Computer Applications (BCA)</strong>
-      – GGSIP University, Delhi
-    </div>
-  </div>
+                <li>
+                    <strong>Availability:</strong>
+                    Two Month Notice Period
+                </li>
 
-  <div class="section">
-    <h2>Certifications</h2>
+                <li>
+                    <strong>Visa Status:</strong>
+                    EU Blue Card, valid until 2030
+                </li>
+            </ul>
+        </section>
 
-    <ul>
-      <li>Certified Scrum Master (CSM)</li>
-      <li>Advanced Certified Scrum Master (A-CSM)</li>
-      <li>ISTQB Certified Tester – Foundation Level</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Additional Information</h2>
-
-    <div class="info-grid">
-
-      <div class="info-item">
-        <strong>Languages:</strong>
-        English (Fluent), German (A2)
-      </div>
-
-      <div class="info-item">
-        <strong>Availability:</strong>
-        Two Month Notice Period
-      </div>
-
-      <div class="info-item">
-        <strong>Visa Status:</strong>
-        EU Blue Card, valid until 2030
-      </div>
-
-    </div>
-  </div>
-
-</div>
+    </main>
 
 </body>
 </html>
