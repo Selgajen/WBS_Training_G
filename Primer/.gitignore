@@ -147,3 +147,7 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Exclude personal/local files
+Primer/Not for repo/
+Not for repo/
