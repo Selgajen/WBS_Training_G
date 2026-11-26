@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us — Digital</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="page-header">
+
+        <nav class="nav wrap">
+
+            <a class="logo" href="index.html">
+                digital<span>.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">☰</button>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- ABOUT US -->
+        <section class="about section wrap" id="about">
+
+            <div class="about-copy">
+
+                <h2>We are<br>Creative Agency</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <a class="btn" href="services.html">Read More</a>
+
+            </div>
+
+            <img class="letter-art"
+                 src="images/02 About us/about-letter-a.jpg"
+                 alt="Creative letter A photo collage">
+
+            <blockquote>
+
+                <span class="quote-mark">“</span>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <cite>Anita Allen</cite>
+
+            </blockquote>
+
+        </section>
+
+        <!-- FEATURES -->
+        <section class="features section wrap" id="features">
+
+            <div class="feature-grid">
+
+                <img src="images/03 Features/f1.jpg"
+                     alt="Creative professional thinking">
+
+                <img src="images/03 Features/f2.jpg"
+                     alt="Camera and creative equipment">
+
+                <img src="images/03 Features/f3.jpg"
+                     alt="Writing notes in a notebook">
+
+                <img src="images/03 Features/f4.jpg"
+                     alt="Live event lighting">
+
+            </div>
+
+            <div class="feature-panel">
+
+                <h2>Amazing features</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <a class="btn" href="services.html">Read More</a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-inner wrap">
+
+            <div>
+                <span class="footer-icon">✉</span>
+                <strong>EMAIL</strong>
+                <p>free@psdfreebies.com</p>
+            </div>
+
+            <div>
+                <span class="footer-icon">▯</span>
+                <strong>CALL US</strong>
+                <p>+123 456 7890</p>
+            </div>
+
+            <div>
+                <span class="footer-icon">♧</span>
+                <strong>ADDRESS</strong>
+                <p>123, Main Road, New City,<br>My Country 123456</p>
+            </div>
+
+        </div>
+
+        <small>Designed By PSDFreebies.com</small>
+
+    </footer>
+
+    <!-- MOBILE NAVIGATION -->
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const links = document.querySelector('.nav-links');
+
+        toggle.addEventListener('click', () => {
+
+            const open = links.classList.toggle('open');
+
+            toggle.setAttribute('aria-expanded', String(open));
+
+        });
+    </script>
+
+</body>
+</html>
